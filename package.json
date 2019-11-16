@@ -1,0 +1,19 @@
+{
+  "name": "employee-management-mongodb-app-restructure",
+  "version": "1.0.0",
+  "description": "Basic Express template with body-parser, index.html static handler with jQuery and Bootstrap",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js localhost 8080"
+  },
+  "dependencies": {
+    "bcrypt": "3.0.6",
+    "body-parser": "1.19.0",
+    "express": "4.17.1",
+    "mongoose": "5.7.7"
+  },
+  "devDependencies": {
+    "nodemon": "1.18.4"
+  },
+  "keywords": []
+}

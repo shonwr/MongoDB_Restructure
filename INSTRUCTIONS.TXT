@@ -1,0 +1,33 @@
+============================ STEP 1 ============================
+   CONNECTION STRING (index.js)
+   Modify the connection string in the mongoose.connect() method to match
+   the connection string to your MongoDB instance. Make sure the Database
+   is set to EmployeeApp. The connection string should be identical to
+   the one you used in your previous lab.
+================================================================
+
+
+============================ STEP 2 ============================
+   RESTRUCTURE
+   Restructure this Node application by moving the Employee model to the
+   "models/employee.js" folder, move the route handlers to the
+   "routes/employees.js" folder and the database connection string to the
+   database.js file.
+   (See Structuring Express Applications - https://ilearn.laccd.edu/courses/84651/pages/module-9-structuring-express-applications)
+====================================================================
+
+
+=========================== Extra Credit ===========================
+   ADD AUTHENTICATION SUPPORT (25 Pts)
+   Add all necessary elements to allow this application to take advantage
+   authentication. This includes the following:
+
+   a) Create a user schema and model "models/user.js" which has at least email and password fields.
+   b) Create a users route "routes/users.js. which handles registering a user and authentication (use bcrypt and JWT).
+   c) Create authorization middleware "middleware/auth.js" that reads the JWT in the request header and verifies it.
+
+   Test the functionality of the authentication/authorization using Postman. You don't
+   need to create the client pages for registration and authentication.
+   
+   (See Introduction to Authentication - https://ilearn.laccd.edu/courses/84651/pages/module-10-introduction-to-authentication)
+====================================================================
